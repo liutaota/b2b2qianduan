@@ -1,0 +1,24 @@
+select w.sudocid,
+w.in_type,
+w.companyid,
+w.companyname,
+w.goodsid,
+w.goodsname,
+w.goodsunit,
+w.goodstype,
+w.lotno,
+w.proddate,
+w.invaliddate,
+w.inpackqty,
+w.goodsqty,
+w.inqty,
+w.w_inpackqty,
+w.i_name,
+w.zj_date,
+w.zj_name,
+w.keepdate,
+w.k_name,
+w.outhh
+ from bms_bi_sudtl_v w
+ where 1=1
+
